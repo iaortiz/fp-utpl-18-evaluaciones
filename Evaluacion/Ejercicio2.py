@@ -1,0 +1,6 @@
+x =float(input("Ingrese el valor de X\n"))
+y =float(input("Ingrese el valor de Y\n"))
+z =float(input("Ingrese el valor de Z\n"))
+m =float((x + y / z) / (x - y / z))
+print ("El valor de m, en base a las variables:\n x= {0}\n\ty= {1}\n\t\tz: {2}".format(x, y, z))
+print("El valor de M en base a las variables es: ",m)
